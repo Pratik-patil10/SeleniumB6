@@ -1,0 +1,4 @@
+21:22:34,589  INFO seleniumDay29_Log4j.A_MasterClass:13 - running test case : loginTest
+21:22:37,017  INFO seleniumDay29_Log4j.A_MasterClass:18 - url opened
+21:22:39,631  INFO seleniumDay29_Log4j.A_MasterClass:22 - email and password entered
+21:22:39,632  INFO seleniumDay29_Log4j.A_MasterClass:25 - loginTest Pass

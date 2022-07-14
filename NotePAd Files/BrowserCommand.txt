@@ -1,0 +1,13 @@
+Browser Commands
+1. .get
+2. .getTitle
+3. .getCurrentURL
+4. .getPageSource
+5. .manage.window.maximize
+6. .manage.window.fullscreen
+7. .navigate().back();	
+8. .navigate().forward();
+9.  .navigate().refresh();
+10. .navigate().to
+11. .close
+12. .quit

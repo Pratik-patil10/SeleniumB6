@@ -1,0 +1,15 @@
+
+JS Executors:--
+
+JavascriptExecutor js=(JavascriptExecutor)driver;
+
+WebElement lName=driver.findElement(By.xpath("//input[@name='name'] [@maxlength='15']"));
+
+1.To scroll vaertical or horizontal:-
+js.executeScript("window.scrollBy(0,-1000)", "");
+
+2.To scroll particlur web element:-
+js.executeScript("arguments[0].scrollIntoView(true)", lName);
+
+3.To sxroll footer:-
+js.executeScript("window.scrollTo(0,document.body.scrollHeight)");	

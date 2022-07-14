@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]">
+  <parameter name="pw" value="123456"/>
+  <parameter name="un" value="kiran@gmail.com"/>
+  <parameter name="qurl" value="file:///D:/Study/1.SDET/JAVA/OfflineWebsite/index.html"/>
+  <test name="Test(failed)(failed)" preserve-order="true">
+    <classes>
+      <class name="seleniumDay20_Parameterization.ParameterizationDemo">
+        <methods>
+          <include name="loginTest3" invocation-numbers="0"/>
+          <include name="openBrowsrer"/>
+          <include name="closeBrowsrer"/>
+        </methods>
+      </class> <!-- seleniumDay20_Parameterization.ParameterizationDemo -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"-->
+<suite name="Suite">
+	<groups>
+			<run>
+				<include name="smoke" />	<!-- This say include the groups of spicifed name -->
+				<exclude name="sanity"/> 	<!-- This say run all method ignoring specified name -->
+			</run>
+	</groups>
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="seleniumDay17_TestNGgrouping.GroupingTestNG">
+      
+	      <include name="TestMethod2" /> <!-- this will include only speci. nethod from particular class -->
+	      <exclude name="TestMethod4" /> <!-- this will exclude speci. Method from particular class and run other methods -->
+      </class>
+      
+       <class name="seleniumDay17_TestNGgrouping.ClassTwo"/>
+       <class name="seleniumDay17_TestNGgrouping.ClassThree"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

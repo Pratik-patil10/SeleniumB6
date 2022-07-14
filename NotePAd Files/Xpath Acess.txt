@@ -1,0 +1,9 @@
+
+X path Axes
+
+1. following-sibling : //input[@name='name'] [@maxlength='15']/following-sibling::label[1] 
+2. preceding-sibling : //input[@name='name'] [@maxlength='15']/preceding-sibling::label[1]  / //input[@name='name'] [@maxlength='15']/preceding-sibling::input[@name='name']
+
+3. parent/child : //input[@name='name'] [@maxlength='15']/parent::div/following-sibling::div/child::a
+
+4.//input[@name='name'] [@maxlength='15']//ancestor::form   /  //input[@name='name'] [@maxlength='15']//descendant

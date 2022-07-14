@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" -->
+<suite name="Suite">
+	<parameter 
+	name="qurl" value="file:///D:/Study/1.SDET/JAVA/OfflineWebsite/index.html"></parameter>
+	<parameter name="un" value="kiran@gmail.com"></parameter>
+	<parameter name="pw" value="123456"></parameter>
+
+	<test thread-count="5" name="Test">
+			<classes>
+			<class
+				name="seleniumDay20_Parameterization.ParameterizationDemo" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

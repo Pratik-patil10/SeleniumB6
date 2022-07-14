@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+   <!-- to run muliptle class in single xml file write here file name -->
+   
+      <class name="seleniumDay16_TestNG_XML.ClassOne"/>
+      <class name="seleniumDay16_TestNG_XML.ClassTwo"/>
+      <class name="seleniumDay16_TestNG_XML.ClassThree"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

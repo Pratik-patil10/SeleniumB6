@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <parameter name="browserName" value="chrome"/>
+  <test parallel="none" name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="seleniumDay29_Log4j.A_MasterClass">
+        <methods>
+          <include name="masterRun"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- seleniumDay29_Log4j.A_MasterClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
